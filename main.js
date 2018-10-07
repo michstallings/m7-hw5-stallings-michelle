@@ -37,3 +37,5 @@ navigation.appendChild(linkListItem);
 var linkText = document.createTextNode('This is my link')
 
 link.appendChild(linkText)
+
+link.href = "http://google.com"
