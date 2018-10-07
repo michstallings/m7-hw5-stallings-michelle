@@ -25,3 +25,7 @@ var listItemText = document.createTextNode('This is the list item');
 header.appendChild('headerText');
 
 navLi.appendChild('listItemText');
+
+header.classList.add("blue")
+
+main.classList.add("text-center")
