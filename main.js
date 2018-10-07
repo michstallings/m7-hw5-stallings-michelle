@@ -10,13 +10,13 @@ var header = document.createElement('h1');
 
 main.appendChild(header);
 
-var ul = document.createElement('ul');
+var navigation = document.createElement('ul');
 
-main.appendChild(ul);
+main.appendChild(navigation);
 
 var navLi = document.createElement('li');
 
-ul.appendChild(navLi);
+navigation.appendChild(navLi);
 
 var headerText = document.createTextNode('This is the header text!');
 
