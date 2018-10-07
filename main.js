@@ -34,8 +34,12 @@ linkListItem.appendChild(link);
 
 navigation.appendChild(linkListItem);
 
-var linkText = document.createTextNode('This is my link')
+var linkText = document.createTextNode('This is my link');
 
-link.appendChild(linkText)
+link.appendChild(linkText);
 
-link.href = "http://google.com"
+link.href = "http://google.com";
+
+var notLinkListItem = linkListItem.previousElementSibling;
+
+notLinkListItem.classList.add("orange");
