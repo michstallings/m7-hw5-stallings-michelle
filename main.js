@@ -14,10 +14,14 @@ var ul = document.createElement('ul');
 
 main.appendChild(ul);
 
-var li = document.createElement('li');
+var navLi = document.createElement('li');
 
-ul.appendChild(li);
+ul.appendChild(navLi);
 
 var headerText = document.createTextNode('This is the header text!');
 
 var listItemText = document.createTextNode('This is the list item');
+
+header.appendChild('headerText');
+
+navLi.appendChild('listItemText');
