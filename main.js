@@ -18,13 +18,9 @@ var navLi = document.createElement('li');
 
 navigation.appendChild(navLi);
 
-var headerText = document.createTextNode('This is the header text!');
+header.innerHTML ='This is the header text!';
 
-var listItemText = document.createTextNode('This is the list item');
-
-header.appendChild('headerText');
-
-navLi.appendChild('listItemText');
+navLi.innerHTML = 'This is the list item';
 
 header.classList.add("blue")
 
