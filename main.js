@@ -33,3 +33,7 @@ var linkListItem = document.createElement('li');
 linkListItem.appendChild(link);
 
 navigation.appendChild(linkListItem);
+
+var linkText = document.createTextNode('This is my link')
+
+link.appendChild(linkText)
