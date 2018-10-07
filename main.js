@@ -31,3 +31,5 @@ var link = document.createElement('a');
 var linkListItem = document.createElement('li');
 
 linkListItem.appendChild(link);
+
+navigation.appendChild(linkListItem);
